@@ -5,6 +5,7 @@ body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
   padding: 40px;
 }
 
@@ -18,8 +19,12 @@ h3 {
 
 /* Header */
 header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
+
 
 /* Containers */
 div {
@@ -35,6 +40,28 @@ article {
 article div {
   text-align: center;
   width: 100%;
+}
+
+.container { /* About Section */
+  display: flex;
+}
+
+.box1 {
+  margin: 20px;
+}
+
+.box2 {
+  align-self: baseline;
+}
+
+.box3 {
+  text-align: left;
+}
+
+.container2 { /* Portfolio Section */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
 }
 
 /* Paragraphs */
